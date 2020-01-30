@@ -80,4 +80,3 @@ def put_user(user_id):
             storage.save()
             return jsonify(value.to_dict()), 200
     abort(404)
-
